@@ -23,7 +23,7 @@ class Player: SKSpriteNode {
         let moveDown: SKAction = SKAction.move(by: CGVector(dx:0,dy:-100), duration: 1)
         moveDown.timingMode = .easeOut
         
-        let seq:SKAction = SKAction.sequence([moveUp,moveUp]);
+        let seq:SKAction = SKAction.sequence([moveUp,moveDown]);
         let repeatForever: SKAction = SKAction.repeatForever(seq)
         playerSprite.run(repeatForever)
         self.addChild(playerSprite)
