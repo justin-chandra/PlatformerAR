@@ -10,9 +10,14 @@ import SpriteKit
 import ARKit
 
 class Scene: SKScene {
+
+    let playButton = SKSpriteNode(imageNamed:"play")
+
     
     override func didMove(to view: SKView) {
         // Setup your scene here
+        self.playButton.position = CGPoint(x:0, y:0)
+
     }
     
     override func update(_ currentTime: TimeInterval) {

@@ -65,6 +65,7 @@ class ViewController: UIViewController, ARSKViewDelegate {
             let someNode: SKNode = SKNode()
             return someNode;
         }
+
     }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
