@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07049E951FB7AD5E008DEFD9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07049E941FB7AD5E008DEFD9 /* Player.swift */; };
+		07049E971FB7ADB4008DEFD9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07049E961FB7ADB4008DEFD9 /* Helpers.swift */; };
 		42D506771FB7A39E008764EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D506761FB7A39E008764EE /* AppDelegate.swift */; };
 		42D506791FB7A39E008764EE /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42D506781FB7A39E008764EE /* Scene.sks */; };
 		42D5067B1FB7A39E008764EE /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D5067A1FB7A39E008764EE /* Scene.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07049E941FB7AD5E008DEFD9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		07049E961FB7ADB4008DEFD9 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		42D506731FB7A39E008764EE /* platformerAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = platformerAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D506761FB7A39E008764EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42D506781FB7A39E008764EE /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -105,10 +109,12 @@
 				42D506781FB7A39E008764EE /* Scene.sks */,
 				42D5067A1FB7A39E008764EE /* Scene.swift */,
 				42D5067C1FB7A39E008764EE /* ViewController.swift */,
+				07049E961FB7ADB4008DEFD9 /* Helpers.swift */,
 				42D5067E1FB7A39E008764EE /* Main.storyboard */,
 				42D506811FB7A39E008764EE /* Assets.xcassets */,
 				42D506831FB7A39E008764EE /* LaunchScreen.storyboard */,
 				42D506861FB7A39E008764EE /* Info.plist */,
+				07049E941FB7AD5E008DEFD9 /* Player.swift */,
 			);
 			path = platformerAR;
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07049E951FB7AD5E008DEFD9 /* Player.swift in Sources */,
 				42D5067D1FB7A39E008764EE /* ViewController.swift in Sources */,
 				42D5067B1FB7A39E008764EE /* Scene.swift in Sources */,
+				07049E971FB7ADB4008DEFD9 /* Helpers.swift in Sources */,
 				42D506771FB7A39E008764EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
