@@ -10,6 +10,12 @@ import SpriteKit
 import ARKit
 
 class Scene: SKScene {
+
+    let playButton = SKSpriteNode(imageNamed:"play")
+    
+    override func didMoveToView(view: SKView){
+        self.playButton.position = CGPointMake(CGREctGetMidX(self.frame), y: CGFloat)
+    }
     
     override func didMove(to view: SKView) {
         // Setup your scene here
