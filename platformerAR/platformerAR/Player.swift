@@ -16,7 +16,7 @@ class Player: SKSpriteNode {
     
     func setUp(with name:String){
         
-        playerSprite = SKSpriteNode(imageNamed: name)
+        playerSprite = SKSpriteNode(imageNamed: "fire")
         
         let moveUp: SKAction = SKAction.move(by: CGVector(dx:0,dy:100), duration: 1)
         moveUp.timingMode = .easeOut
